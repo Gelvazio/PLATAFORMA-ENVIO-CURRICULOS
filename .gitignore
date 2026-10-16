@@ -1,0 +1,3 @@
+# PDFs de entrada: contêm dados pessoais (endereço, telefone) e material de terceiros
+*.pdf
+graphify-out/
