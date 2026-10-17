@@ -12,13 +12,15 @@ Prioridade: 🔴 Máxima · 🟠 Alta · 🟡 Média · 🟢 Baixa
 
 | Frente | Tarefa (etapa) | Situação | Atualizado em |
 |---|---|---|---|
-| Claude Code (Sonnet 5.5) (local · main) | LINKEDIN (001-3f9a1c7e) | ⏹️ Encerrada | 2026-10-16 |
+| Claude Code (Sonnet 5.5) (local · main) | TAILA (002-5b2d8e40) | 🔄 Em execução | 2026-10-16 |
 
 ## 📌 Tarefas
 
 | Tarefa | Título | Prioridade | Modelo | Depende de | Status | Em uso por | Etapa |
 |---|---|---|---|---|---|---|---|
 | **LINKEDIN** | **Página `index.html` com cards de análise de LinkedIn** | 🟠 Alta | — | Nenhuma | 👀 Aguardando aceite | — (não reservável) | [ETAPA-001](etapas/ETAPA-001-3f9a1c7e-LINKEDIN-INDEX.md) |
+| **TAILA** | **Card de TAILA CELLARIUS: currículo melhorado e plano de vagas** | 🔴 Máxima | — | Nenhuma | 🔄 Em progresso | — (não reservável) | [ETAPA-002](etapas/ETAPA-002-5b2d8e40-CARD-TAILA.md) |
+| TAILA.1 | Criar o card (currículo melhorado, vagas de aprendiz/estágio, plano) | 🔴 Máxima | MEDIO · Sonnet | Nenhuma | 🔄 Em execução | Claude Code (Sonnet 5.5) (local · main) (desde 2026-10-16) | [ETAPA-002](etapas/ETAPA-002-5b2d8e40-CARD-TAILA.md) |
 | LINKEDIN.2 | Aceite do usuário: conferir o card de GELVAZIO CAMARGO | 🟠 Alta | Usuário | LINKEDIN.1 | 👀 Aguardando o usuário | — | [ETAPA-001](etapas/ETAPA-001-3f9a1c7e-LINKEDIN-INDEX.md) |
 
 ## Escopo do projeto
@@ -32,6 +34,7 @@ Prioridade: 🔴 Máxima · 🟠 Alta · 🟡 Média · 🟢 Baixa
 | Etapa | Assunto | Arquivo |
 |---|---|---|
 | 001-3f9a1c7e | LINKEDIN: página `index.html` com cards | [ETAPA-001-3f9a1c7e-LINKEDIN-INDEX.md](etapas/ETAPA-001-3f9a1c7e-LINKEDIN-INDEX.md) |
+| 002-5b2d8e40 | TAILA: card de TAILA CELLARIUS | [ETAPA-002-5b2d8e40-CARD-TAILA.md](etapas/ETAPA-002-5b2d8e40-CARD-TAILA.md) |
 
 ## Riscos
 
@@ -49,13 +52,14 @@ Prioridade: 🔴 Máxima · 🟠 Alta · 🟡 Média · 🟢 Baixa
 | Data | Decisão | Quem | Por quê |
 |---|---|---|---|
 | 2026-10-16 | Regras de `C:\fontes\rules-ai` aplicadas ao projeto: `AGENTS.md` + quadro em `tasks/` | Gelvazio | Pedido no chat |
+| 2026-10-16 | Taila é menor de idade: CPF, RG, endereço, telefones, e-mail, nascimento e escola do currículo dela ficam FORA da página e do Git (PDF no `.gitignore`) | Claude Code | Repositório pode ser público; dado de menor |
 | 2026-10-16 | Cards dirigidos por dados (`js/dados-perfis.js`), para acrescentar Taila e Jéssica sem mexer na página | Claude Code | Pedido: "depois farei 1 card em nome de…" |
 
 ## Pendências (ficou para depois)
 
 | Data | Pendência | Motivo |
 |---|---|---|
-| 2026-10-16 | Cards de TAILA CELLARIUS e JESSICA MORATELLI | O usuário fará depois |
+| 2026-10-16 | Card de JESSICA MORATELLI | O usuário fará depois |
 
 ## Lições aprendidas
 
