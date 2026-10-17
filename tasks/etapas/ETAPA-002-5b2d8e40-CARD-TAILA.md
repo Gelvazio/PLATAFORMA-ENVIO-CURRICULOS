@@ -6,7 +6,7 @@
 **Urgência:** contrato atual de jovem aprendiz termina em 07/11/2026.
 
 ### TAILA.1 — Criar o card
-**Próximo passo:** conferir sintaxe e commitar.
+**Próximo passo:** concluída; usuário confere o card.
 - **Nível:** MEDIO — dados + 2 seções opcionais no `app.js`.
 - **Critérios de Aceitação:** card novo só por dados; sem CPF/RG/endereço/telefone/e-mail na página.
-- **Entrega:** — · **Verificação:** —
+- **Entrega:** commit "feat: card de TAILA CELLARIUS" · **Verificação:** `node --check` e busca por dados pessoais no objeto da Taila (nenhum)

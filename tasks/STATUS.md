@@ -12,15 +12,13 @@ Prioridade: 🔴 Máxima · 🟠 Alta · 🟡 Média · 🟢 Baixa
 
 | Frente | Tarefa (etapa) | Situação | Atualizado em |
 |---|---|---|---|
-| Claude Code (Sonnet 5.5) (local · main) | TAILA (002-5b2d8e40) | 🔄 Em execução | 2026-10-16 |
+| Claude Code (Sonnet 5.5) (local · main) | TAILA (002-5b2d8e40) | ⏹️ Encerrada | 2026-10-16 |
 
 ## 📌 Tarefas
 
 | Tarefa | Título | Prioridade | Modelo | Depende de | Status | Em uso por | Etapa |
 |---|---|---|---|---|---|---|---|
 | **LINKEDIN** | **Página `index.html` com cards de análise de LinkedIn** | 🟠 Alta | — | Nenhuma | 👀 Aguardando aceite | — (não reservável) | [ETAPA-001](etapas/ETAPA-001-3f9a1c7e-LINKEDIN-INDEX.md) |
-| **TAILA** | **Card de TAILA CELLARIUS: currículo melhorado e plano de vagas** | 🔴 Máxima | — | Nenhuma | 🔄 Em progresso | — (não reservável) | [ETAPA-002](etapas/ETAPA-002-5b2d8e40-CARD-TAILA.md) |
-| TAILA.1 | Criar o card (currículo melhorado, vagas de aprendiz/estágio, plano) | 🔴 Máxima | MEDIO · Sonnet | Nenhuma | 🔄 Em execução | Claude Code (Sonnet 5.5) (local · main) (desde 2026-10-16) | [ETAPA-002](etapas/ETAPA-002-5b2d8e40-CARD-TAILA.md) |
 | LINKEDIN.2 | Aceite do usuário: conferir o card de GELVAZIO CAMARGO | 🟠 Alta | Usuário | LINKEDIN.1 | 👀 Aguardando o usuário | — | [ETAPA-001](etapas/ETAPA-001-3f9a1c7e-LINKEDIN-INDEX.md) |
 
 ## Escopo do projeto

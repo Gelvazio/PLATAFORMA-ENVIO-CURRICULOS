@@ -235,6 +235,25 @@ function montarSecaoPrompts(perfil) {
 }
 
 /**
+ * Monta a seção opcional do currículo melhorado.
+ * @param {{titulo: string, texto: string}} curriculo - Currículo pronto para copiar.
+ * @returns {HTMLElement} Seção pronta.
+ */
+function montarSecaoCurriculo(curriculo) {
+  return criarSecao("Currículo melhorado", [criarBlocoCopia(curriculo.titulo, curriculo.texto)]);
+}
+
+/**
+ * Monta a seção opcional de onde procurar vagas.
+ * @param {{nome: string, como: string}[]} vagas - Canais de vagas.
+ * @returns {HTMLElement} Seção pronta.
+ */
+function montarSecaoVagas(vagas) {
+  const itens = vagas.map((vaga) => `${vaga.nome}: ${vaga.como}`);
+  return criarSecao("Onde procurar vagas", [criarLista(itens)]);
+}
+
+/**
  * Monta o painel de detalhe completo de um perfil.
  * @param {object} perfil - Perfil completo.
  * @returns {HTMLElement} Painel pronto.
@@ -247,6 +266,8 @@ function montarDetalhe(perfil) {
   detalhe.append(montarSecaoProjeto(perfil.projeto));
   detalhe.append(montarSecaoAnalise(perfil));
   detalhe.append(montarSecaoOtimizacao(perfil.otimizacao));
+  if (perfil.curriculoMelhorado) detalhe.append(montarSecaoCurriculo(perfil.curriculoMelhorado));
+  if (perfil.vagas) detalhe.append(montarSecaoVagas(perfil.vagas));
   detalhe.append(montarSecaoPlano(perfil.plano));
   detalhe.append(montarSecaoPrompts(perfil));
   return detalhe;
